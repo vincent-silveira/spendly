@@ -27,6 +27,11 @@ def terms():
     return render_template("terms.html")
 
 
+@app.route("/policy")
+def policy():
+    return render_template("policy.html")
+
+
 # ------------------------------------------------------------------ #
 # Placeholder routes — students will implement these                  #
 # ------------------------------------------------------------------ #
